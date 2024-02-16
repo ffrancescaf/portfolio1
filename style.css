@@ -17,6 +17,15 @@ nav {
     background-color: orangered;
 } 
 
+@media all and (min-width:768px) {
+    .desktop-br {display: inline;}
+    .mobile-br {display: none;}
+    }
+    @media all and (max-width:767px) {
+    .desktop-br {display: none;}
+    .mobile-br {display: inline;}
+    }
+
 .logo {
     width: 2.5rem;
     margin: 1.5rem;
