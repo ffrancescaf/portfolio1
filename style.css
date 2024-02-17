@@ -17,12 +17,12 @@ nav {
     background-color: orangered;
 } 
 
-@media all and (min-width:768px) {
+@media only screen and (min-width:768px) {
     .desktop-br {display: inline;}
     .mobile-br {display: none;}
     }
 
-@media all and (max-width:767px) {
+@media only screen and (max-width:767px) {
     .desktop-br {display: none;}
     .mobile-br {display: inline;}
     }
