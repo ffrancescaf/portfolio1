@@ -63,9 +63,15 @@ nav {
 }
 
 h1.hello {
-    font-size: 4rem;
-    border: 2px solid orangered;
+    font-size: 7rem;
+    /*border: 2px solid orangered;*/
     padding: 1.5rem;
+    text-align: center;
+    line-height: 50px;
+}
+
+.virgola {
+    color: orangered;
 }
 
 span.hello {
