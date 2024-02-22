@@ -48,9 +48,15 @@ nav {
 }
 
 .description {
-    text-align: right;
+    text-align: center;
     color: white;
-    padding: 12rem 1.5rem 6rem 0;
+    border-top: 2px solid white;
+    padding: 3rem 0;
+}
+
+.orange-big {
+    color: orangered;
+    font-size: 1.25rem;
 }
 
 .orange {
@@ -59,7 +65,8 @@ nav {
 
 .intro {
     color: white;
-    padding: 0 1.5rem 1.5rem;
+    /*padding: 0 1.5rem 1.5rem;*/
+    margin: 14rem auto 7rem;
 }
 
 h1.hello {
@@ -70,17 +77,14 @@ h1.hello {
     line-height: 50px;
 }
 
-.virgola {
-    color: orangered;
+.meet {
+    font-size: 3.5rem;
 }
-
-span.hello {
-    font-size: 2rem;
-} 
 
 .more {
     color: white;
-    padding: 6rem 1.5rem;
+    text-align: center;
+    padding: 0 0 4rem;
 }
 
 h2 {
