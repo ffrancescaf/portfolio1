@@ -1,3 +1,3 @@
 $(".interruttore").click(function(){
-    $(".description").toggle(1000, "swing");
+    $(".description").fadeIn(1000);
 });
