@@ -17,16 +17,6 @@ nav {
     background-color: orangered;
 } 
 
-@media only screen and (min-width:768px) {
-    .desktop-br {display: inline;}
-    .mobile-br {display: none;}
-    }
-
-@media only screen and (max-width:767px) {
-    .desktop-br {display: none;}
-    .mobile-br {display: inline;}
-    }
-
 .logo {
     width: 2.5rem;
     margin: 1.5rem;
@@ -50,8 +40,18 @@ nav {
 .description {
     text-align: center;
     color: white;
-    border-top: 2px solid white;
-    padding: 3rem 0;
+    margin-top: 6rem;
+}
+
+.fade {
+    display: block;
+    margin: 0 auto 3rem ;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: white;
+    border: 2px solid orangered;
+    width: 25%;
+    padding: 1.5rem 0;
 }
 
 .orange-big {
@@ -65,13 +65,11 @@ nav {
 
 .intro {
     color: white;
-    /*padding: 0 1.5rem 1.5rem;*/
     margin: 14rem auto 7rem;
 }
 
 h1.hello {
     font-size: 7rem;
-    /*border: 2px solid orangered;*/
     padding: 1.5rem;
     text-align: center;
     line-height: 50px;
@@ -79,12 +77,6 @@ h1.hello {
 
 .meet {
     font-size: 3.5rem;
-}
-
-.more {
-    color: white;
-    text-align: center;
-    padding: 0 0 4rem;
 }
 
 h2 {
