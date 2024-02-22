@@ -40,12 +40,12 @@ nav {
 .description {
     text-align: center;
     color: white;
-    margin-top: 6rem;
 }
 
-.fade {
+.interruttore {
     display: block;
-    margin: 0 auto 3rem ;
+    text-align: center;
+    margin: 3rem auto 6rem;
     font-size: 1.25rem;
     text-decoration: none;
     color: white;
