@@ -46,7 +46,7 @@ nav {
 .interruttore {
     display: block;
     text-align: center;
-    margin: 3rem auto 6rem;
+    margin: 3rem auto;
     font-size: 1.25rem;
     text-decoration: none;
     color: white;
@@ -78,6 +78,10 @@ h1.hello {
 
 .meet {
     font-size: 3.5rem;
+}
+
+#title-about {
+    margin-top: 10rem;
 }
 
 h2 {
