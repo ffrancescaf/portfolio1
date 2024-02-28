@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif; 
 }
 
 body {
@@ -80,7 +80,7 @@ h1.hello {
     font-size: 3.5rem;
 }
 
-#title-about {
+.title-about {
     margin-top: 10rem;
 }
 
