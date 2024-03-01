@@ -5,16 +5,16 @@
 }
 
 body {
-    background-color: black;
+    background-color: #050505;
     font-size: 1rem;
-    color: white;
+    color: #FFFFFF;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: orangered;
+    background-color: #FFFFFF;
 } 
 
 .logo {
@@ -23,23 +23,22 @@ nav {
 }
 
 .link-nav {
-    color: black;
+    color: #050505;
     text-decoration: none;
     margin: 1.5rem 0.75rem;
-    border: 2px solid black;
+    border: 2px solid #050505;
     padding: 1rem;
     transition: all 500ms linear;
 }
 
 .link-nav:hover {
     border: none;
-    color:white;
-    font-size: 1.25rem;
+    color: #1B9AAA;
 }
 
 .description {
     text-align: center;
-    color: white;
+    color: #FFFFFF;
     display: none;
 }
 
@@ -49,23 +48,23 @@ nav {
     margin: 3rem auto;
     font-size: 1.25rem;
     text-decoration: none;
-    color: white;
-    border: 2px solid orangered;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF; 
     width: 25%;
     padding: 1.5rem 0;
 }
 
 .orange-big {
-    color: orangered;
     font-size: 1.25rem;
+    color: #1B9AAA;
 }
 
 .orange {
-    color: orangered;
+    color: #1B9AAA;
 }
 
 .intro {
-    color: white;
+    color: #FFFFFF;
     margin: 14rem auto 7rem;
 }
 
@@ -86,20 +85,22 @@ h1.hello {
 
 h2 {
     font-size: 1.5rem;
-    background-color: orangered;
+    background-color: #FFFFFF;
     padding: 1rem 1.5rem;
     margin-top: 3rem;
+    color: #050505;
 }
 
 h3 {
     font-size: 1.25rem;
-    border: 2px solid white;
+    border: 2px solid #FFFFFF;
     padding: 1rem 1.5rem;
     margin: 1.5rem;
+    color: #FFFFFF;
 }
 
 h4 {
-    color: orangered;
+    color: #1B9AAA;
 }
 
 .column {
@@ -118,7 +119,7 @@ h4 {
 .project {
     width: 12.5rem; 
     text-align: center;
-    border: 2px solid orangered;
+    border: 2px solid #FFFFFF;
     padding: 1.5rem;
     margin: 3rem 1.5rem; 
 }
@@ -132,18 +133,18 @@ h4 {
 
 .link-project {
     text-decoration: none;
-    color: white;
+    color: #FFFFFF;
     text-decoration: overline;
     transition: all 500ms linear;
 }
 
 .link-project:hover {
     text-decoration: none;
-    font-size: 1.25em;
+    color: #1B9AAA;
 }
 
 .icons {
-    background-color: orangered;
+    background-color: #FFFFFF;
     height: 5rem;
     display: flex;
     justify-content: center;
@@ -153,10 +154,10 @@ h4 {
 
 i {
     margin: 1.5rem;
-    color: white;
+    color: #050505;
     transition: color 500ms linear;
 }
 
 i:hover {
-    color: black;
+    color: #1B9AAA;
 }
