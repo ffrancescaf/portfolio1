@@ -36,33 +36,6 @@ nav {
     color: #1B9AAA;
 }
 
-.description {
-    text-align: center;
-    color: #FFFFFF;
-    display: none;
-}
-
-.interruttore {
-    display: block;
-    text-align: center;
-    margin: 3rem auto;
-    font-size: 1.25rem;
-    text-decoration: none;
-    color: #FFFFFF;
-    border: 2px solid #FFFFFF; 
-    width: 25%;
-    padding: 1.5rem 0;
-}
-
-.blue-big {
-    font-size: 1.25rem;
-    color: #1B9AAA;
-}
-
-.blue {
-    color: #1B9AAA;
-}
-
 .intro {
     color: #FFFFFF;
     margin: 14rem auto 7rem;
@@ -77,6 +50,33 @@ h1.hello {
 
 .meet {
     font-size: 3.5rem;
+}
+
+.interruttore {
+    display: block;
+    text-align: center;
+    margin: 3rem auto;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF; 
+    width: 25%;
+    padding: 1.5rem 0;
+}
+
+.description {
+    text-align: center;
+    color: #FFFFFF;
+    display: none; /* per jQuery */
+}
+
+.blue-big {
+    font-size: 1.25rem;
+    color: #1B9AAA;
+}
+
+.blue {
+    color: #1B9AAA;
 }
 
 .title-about {
